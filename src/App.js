@@ -11,6 +11,7 @@ import Home from './pages/Home';
 import Signup from './pages/Signup';
 import Contact from './pages/Contact';
 import About from './pages/About';
+import Blog from './pages/Blog';
 
 
 
@@ -24,7 +25,7 @@ function App() {
         <Route path="/signup" element={<Signup/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/about" element={<About/>} />
-
+        <Route path="/blog" element={<Blog/>} />
       </Routes>
     </div>
   );
