@@ -8,11 +8,11 @@ import BlogImage from "../img/Rectangle 35.png";
 
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "../styles/Contact.css";
-import Header from "../components/Header";
+import Header from "../components/HeaderComponent";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import Footer from "../components/Footer";
+import Footer from "../components/FooterComponent";
 
 const Contact = () => {
   return (

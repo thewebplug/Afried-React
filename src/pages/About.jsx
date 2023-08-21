@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import Student1 from "../img/Rectangle 31.png";
 import Student2 from "../img/Rectangle 38.png";
 import "../styles/About.css";
-import Header from "../components/Header";
+import Header from "../components/HeaderComponent";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import Footer from "../components/Footer";
+import Footer from "../components/FooterComponent";
 
 const About = () => {
   const [activeQuestion, setActiveQuestion] = useState("");

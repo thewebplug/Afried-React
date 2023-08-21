@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../components/Header';
+import Header from '../components/HeaderComponent';
 import '../styles/Login.css'
 import { useNavigate } from 'react-router-dom';
 

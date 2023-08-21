@@ -22,12 +22,12 @@ import ReviewImg1 from "../img/Ellipse 15.png";
 import Ills from "../img/OBJECTS copy.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "../styles/Home.css";
-import Header from "../components/Header";
+import Header from "../components/HeaderComponent";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import Footer from "../components/Footer";
-import Enquiry from "../components/Enquiry";
+import Footer from "../components/FooterComponent";
+import Enquiry from "../components/EnquiryComponent";
 
 const Home = () => {
   const navigate = useNavigate();
