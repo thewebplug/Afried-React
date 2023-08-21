@@ -37,7 +37,7 @@ const Home = () => {
     const cardId = hash.substring(1);
     const cardElement = document.getElementById(cardId);
 
-    if (cardElement) {
+    if (cardElement) { 
       cardElement.scrollIntoView({ behavior: "smooth" });
     }
   }, [hash]);
