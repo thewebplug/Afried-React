@@ -2,6 +2,10 @@
 
 Dissecting activity flow can be found here: [Figma Link](https://www.figma.com/file/jFdgfmmXPIiflwECgq0dkW/Afried-Clone-App-Exercise?type=design&node-id=0-1&mode=design&t=kWlPaqbO8QPLV1rZ-0).
 
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
