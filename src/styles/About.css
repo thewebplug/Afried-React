@@ -1,0 +1,235 @@
+.about .hero_container {
+  /* background-color: #E8EAF5; */
+}
+
+.about .hero {
+  background: url("../img/bg.jpg");
+  background-position: center;
+  background-color: #e8eaf5;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  min-height: 62vh;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* align-items: flex-start; */
+  padding: 0 200px;
+}
+
+.about .hero_title-container {
+  /* margin-top: 100px; */
+  display: flex;
+  flex-direction: column;
+  margin-right: 176px;
+}
+
+.about .hero_title {
+  font-size: 64px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.about .hero_title-bold {
+  font-size: 86px;
+  font-weight: 600;
+  text-align: left;
+  margin-top: -60px;
+}
+
+.about .hero_subtitle {
+  text-align: left;
+}
+
+.about .hero_img {
+  /* align-self: flex-end; */
+  /* margin-bottom: 80px; */
+  /* width: 480px; */
+  height: auto;
+  margin-top: 60px;
+}
+
+.about .who {
+    padding: 70px 200px;
+    font-weight: 500;
+}
+
+.about .who_title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+.about .mission{
+    padding: 40px 200px;
+    background-color: #E8EAF5;
+}
+
+
+
+.about .mission_inner {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    margin-bottom: 140px;
+}
+
+.about .mission_inner img {
+    width: 400px;
+    height: auto;
+    margin-right: 64px;
+}
+
+.about .mission_title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.about .mission_vision {
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+
+.about .mission_vision img {
+    width: 400px;
+    height: auto;
+    margin-left: 64px;
+}
+
+.about .faq {
+    padding: 40px 200px;
+}
+
+.about .faq_box {
+    width: 80%;
+    background: #E8EAF5;
+border-radius: 15px;
+padding: 30px;
+
+margin: auto;
+margin-bottom: 20px;
+transition: 2s;
+}
+
+.about .faq_box > div {
+  width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+transition: 2s;
+
+}
+
+.about .faq_box-inner {
+ margin-top: 10px;
+ transition: 2s;
+font-weight: 700;
+}
+
+
+.about .first {
+    margin-top: 50px;
+}
+
+
+@media (max-width: 1170px) {
+  .about .hero {
+    min-height: unset;
+  }
+  
+  .about .mission {
+    padding: 40px;
+  }
+
+  .about .faq {
+    padding: 40px;
+  }
+
+  .about .hero_title-bold {
+    margin-top: 0;
+    font-size: 50px;
+    word-wrap: none;
+    word-break: keep-all;
+  }
+
+  .about .hero_img {
+    /* width: 300px; */
+    /* height: 300px; */
+  }
+  
+}
+
+@media (max-width: 874px) {
+  .about .hero {
+    flex-direction: column;
+    padding: 0 40px;
+    align-items: flex-start;
+  }
+
+  .about .hero_title-bold {
+    
+  }
+
+  .about .hero_img {
+    align-self: center;
+  }
+}
+
+@media (max-width: 680px) {
+  
+  .about .flex_column {
+    flex-direction: column !important;
+    /* background-color: yellow !important; */
+    width: 100% !important;
+    align-items: flex-start;
+  }
+
+  .about .hero_title-bold {
+    font-size: 60px;
+  }
+
+  .about .hero_img {
+    width: 300px;
+  }
+
+  .about .hero_title-container {
+    margin-top: 50px;
+  }
+
+  .about .faq {
+   padding: 40px 20px;
+   /* background-color: yellow; */
+  }
+  .about .faq_box {
+    width: 100%;
+  }
+
+  .about .mission_inner {
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+
+  .about .mission_inner img {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .about .mission_vision {
+    flex-direction: column-reverse;
+    margin-bottom: 0;
+  }
+
+  .about .mission_vision img {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .about .who {
+    padding: 70px 40px;
+
+  }
+}

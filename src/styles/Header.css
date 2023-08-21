@@ -1,0 +1,145 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 200px;
+    background-color: #ffffff;
+    
+}
+
+.header .desktop {
+    text-decoration: none !important;
+    color: #000;
+}
+.header .header_logo {
+    width: 60px;
+    height: auto;
+}
+
+.header .header_button {
+    background-color: #468E4B;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 7px 35px;
+
+}
+
+.header .header_button-trans {
+    border: 1px solid #468E4B;
+    color: #468E4B;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 7px 35px;
+
+}
+
+.header .header_flex {
+    display: flex;
+    align-items: center;
+}
+
+.header .login {
+    margin-right: 39px;
+}
+
+.header .header_hamburger {
+    display: none;
+}
+
+.header .none {
+    display: none;
+    
+}
+
+.header .mobile {
+    display: none;
+}
+
+@media (max-width: 1170px) {
+    .header {
+        padding: 25px 40px;
+    }
+}
+
+@media (max-width: 874px) {
+    .header .desktop {
+        display: none;
+    }
+
+    .header .header_hamburger {
+        display: initial;
+        margin-right: 30px;
+    }
+
+    .header .header_sidebar {
+        /* display: initial; */
+        width: 60%;
+    height: 100vh;
+    position: fixed;
+    padding: 20px;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    transition: 0.6s;
+    text-align: start;
+    /* display: none; */
+    animation: slideIn 0.7s;
+    }
+
+    .header .header_sidebar .header_sidebar-title {
+        margin-bottom: 20px;
+        text-decoration: none;
+        color: #000;
+    }
+
+    .header .side_bar-close {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+
+}
+
+
+
+
+
+@media (max-width: 640px) {
+
+    .header .desktop-mid {
+        display: none;
+        
+    }
+
+    .header .mobile {
+        display: flex;
+    }
+
+
+
+    .header .header_logo {
+        width: 40px;
+    }
+
+    .header .login {
+        margin-right: 10px;
+    }
+
+    .header .header_button, .header .header_button-trans {
+        font-size: 14px;
+    border-radius: 10px;
+    padding: 7px 20px;
+    }
+}
+
+
+@keyframes slideIn {
+    0% {
+      left: -300px;
+    }
+    100% {
+      left: 0;
+    }
+  }

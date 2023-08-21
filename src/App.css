@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.poppins {
+  font-family: 'poppins';
+}
+
+.App-logo {
+  height: 60px;
+  pointer-events: none;
+  margin-right: 200px;
+}
+
+.custom-navbar {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+@media (min-width: 992px) {
+  .container-fluid {
+    padding-left: 90px !important;
+    padding-right: 90px !important;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.menu-span {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  color: #AAAAAA;
+}
+
+.menu-span:hover {
+  color: black;
+  font-weight: 700;
+}
+
+.menu-active {
+  font-family: 'Open Sans' !important;
+  font-size: 16px !important;
+  color: black !important;
+  font-weight: 700 !important;
+}
+
+.btn-green-light {
+  background-color: #468E4B !important;
+  color: #fff !important;
+  border-radius: 10px !important;
+  padding: 12px, 40px, 12px, 40px !important;
+  gap: 10px !important;
+  width: 125px !important;
+  align-self: center !important;
+}
+
+.btn-green-light:hover {
+  background-color: #27552a !important;
+}
+
+.btn-outline-light {
+  border: 1px solid #468E4B !important;
+  border-radius: 10px !important;
+  padding: 12px, 40px, 12px, 40px !important;
+  gap: 10px !important;
+  width: 125px !important;
+  color: #468E4B !important;
+  align-self: center !important;
+}
+
+.btn-outline-light:hover {
+  border: 1px solid #27552a !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

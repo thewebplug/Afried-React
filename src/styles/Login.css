@@ -1,0 +1,85 @@
+.login {
+    background-color: rgb(216, 216, 248);
+}
+
+.login .hero {
+    height: 100vh;
+    background: url('../img/Group\ 593.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login .hero_login {
+    width: 483px;
+    /* height: 585px; */
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.login .hero_login .input {
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 20px;
+    outline: none;
+}
+
+.login .input::placeholder {
+    color: #7B7B7B;
+}
+
+.login .input_title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.login .input_subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.login .login_flex-space {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login .login_flex {
+    display: flex;
+    align-items: center;
+}
+
+.login button {
+    background-color: #468E4B;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 15px 0;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 56px;
+}
+
+.login .green {
+    color: #468E4B;
+    font-weight: 500;
+}
+
+.login .check {
+    width: 21px;
+    height: 21px;
+    margin-right: 5px;
+    accent-color: #468E4B;
+}
