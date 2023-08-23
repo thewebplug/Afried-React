@@ -1,10 +1,8 @@
 import React, { useEffect } from "react";
 import background from "../img/bg.jpg";
 import Students from "../img/hero_image.png";
-import Aust from "../img/australia.png";
-import Uk from "../img/uk.png";
+
 import { useLocation, useNavigate } from "react-router-dom";
-import Au from "../img/au.png";
 import Obj from "../img/objects.png";
 import One from "../img/1.png";
 import Two from "../img/2.png";
@@ -17,17 +15,16 @@ import Event3 from "../img/Rectangle 37 (1).png";
 import Crew1 from "../img/Rectangle 32.jpeg";
 import Crew2 from "../img/Rectangle 33.jpeg";
 import Crew3 from "../img/Rectangle 45.jpeg";
-import ReviewImg from "../img/Ellipse 14.png";
-import ReviewImg1 from "../img/Ellipse 15.png";
 import Ills from "../img/OBJECTS copy.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "../styles/Home.css";
 import Header from "../components/HeaderComponent";
-import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import Footer from "../components/FooterComponent";
 import Enquiry from "../components/EnquiryComponent";
+import Partners from "../components/Partners";
+import Slider from "../components/Slider";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -59,14 +56,7 @@ const Home = () => {
           <img src={Students} />
         </div>
       </div>
-      <div className="partners">
-        <div>
-          Partner <br /> Institutions
-        </div>
-        <img className="img1" src={Aust} alt="" />
-        <img className="img2" src={Uk} alt="" />
-        <img className="img3" src={Au} alt="" />
-      </div>
+     <Partners />
 
       <div className="who">
         <div className="who_main">
@@ -270,51 +260,7 @@ const Home = () => {
 
       <div className="review">
         <div className="review_title">See what people are saying</div>
-        <OwlCarousel
-          className="review_slide"
-          item={3}
-          margin={10}
-          nav={true}
-          dots={true}
-          // loop
-          dotsEach={true}
-          autoWidth={true}
-          navText={[<div>hello</div>, <div>hi</div>]}
-        >
-          <div className="review_card">
-            <div className="review_card-flex">
-              <img className="img" src={ReviewImg} alt="" />
-              <div>
-                <div className="card_flex-title">Dami</div>
-                <div className="card_flex-subtitle">
-                  Griffith University, Australia
-                </div>
-              </div>
-            </div>
-            <div>
-              My study abroad prospects were put into realisation through
-              working with Vinea trying my study abroad application process. The
-              whole process went smoothly and I was carried along all the way
-              till arrival in Uni. One word I will say is study abroad the Vinea
-              way.
-            </div>
-          </div>
-          <div className="review_card">
-            <div className="review_card-flex">
-              <img className="img" src={ReviewImg1} alt="" />
-              <div>
-                <div className="card_flex-title">Debbie</div>
-                <div className="card_flex-subtitle">
-                University of Central Lancashire
-                </div>
-              </div>
-            </div>
-            <div>
-            I was introduced to Vinea through a family member and I will say I never regretted the referral. My study abroad applications process was done without any delay with great result. I recomend you study abroad the Vinea way.
-            </div>
-          </div>
-          
-        </OwlCarousel>
+        <Slider />
       </div>
       <Footer />
     </div>

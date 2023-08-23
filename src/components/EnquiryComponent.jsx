@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Enquiry.css'
-import { countries } from '../countries';
+import { data } from '../data';
 
 
 const Enquiry = () => {
@@ -297,7 +297,7 @@ const Enquiry = () => {
             <option className="" value="">
               Select Country to Study
             </option>
-            {countries?.map((country) => <option value={country?.label}>{country?.label}</option>)}
+            {data?.map((country) => <option value={country?.label}>{country?.label}</option>)}
           </select>
 
           <button type='submit'>Submit</button>
