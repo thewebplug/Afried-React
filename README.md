@@ -3,6 +3,8 @@
 Dissecting activity flow can be found here: [Figma Link](https://www.figma.com/file/jFdgfmmXPIiflwECgq0dkW/Afried-Clone-App-Exercise?type=design&node-id=0-1&mode=design&t=kWlPaqbO8QPLV1rZ-0).
 
 
+Final Project![Uploading FireShot Capture 005 - Vinea Global - localhost.png…]()
+
 
 
 
