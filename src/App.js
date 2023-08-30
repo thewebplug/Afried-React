@@ -14,11 +14,14 @@ import About from './pages/About';
 import Blog from './pages/Blog';
 import Services from './pages/Services';
 import Partners from './pages/Partners';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
     <div className="App">
       <Routes>
+
+        <Route path="*" element={<NotFound/>} />
         <Route path="/" element={<Home/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/signup" element={<Signup/>} />
